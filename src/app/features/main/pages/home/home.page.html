@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1>CONTADOR</h1>
+  <h2 style="text-align: center;">{{ count$ | async  }}</h2>
+
+  <div style="display: flex; gap: 10px;">
+
+    <ion-button (click)="incrementar()" color="primary" expand="block" fill="solid" shape="round">
+      incrementar
+    </ion-button>
+  
+    <ion-button (click)="decrementar()" color="danger" expand="block" fill="solid" shape="round">
+      Decrementar
+    </ion-button>
+  
+    <ion-button (click)="reset()" color="warning" expand="block" fill="solid" shape="round">
+      Reset
+    </ion-button>
+  </div>
+<ion-button routerLink="/gallery" expand="block" fill="clear" shape="round">
+  Ir a la galeria
+</ion-button>
+
+<app-button-fill/>
+
+</ion-content>
