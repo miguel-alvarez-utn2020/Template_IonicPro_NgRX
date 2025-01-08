@@ -1,0 +1,11 @@
+
+  {
+    "LOGIN": "Ingresar",
+    "SPANISH": "Español",
+    "ENGLISH": "Inglés",
+    "REGISTER": "Registrarse",
+    "AUTH": {
+      "LOGIN": "Ingresar",
+      "REGISTER": "Registrarse"
+    }
+  }

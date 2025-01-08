@@ -1,0 +1,11 @@
+{
+    "LOGIN": "Login",
+    "SPANISH": "Spanish",
+    "ENGLISH": "English",
+    "REGISTER": "Register",
+    "AUTH": {
+      "LOGIN": "Login",
+      "REGISTER": "Register"
+    }
+}
+
