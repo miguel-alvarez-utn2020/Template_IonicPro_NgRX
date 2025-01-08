@@ -1,0 +1,38 @@
+@use "settings";
+
+h1, h2, h3, h4, h5, h6{
+    font-family: settings.$font-family-oswald;
+    padding: 0px;
+    margin: 0px;
+    text-transform: none;
+}
+
+p, span{
+    font-family: settings.$font-family-default;
+}
+
+a{
+    font-family: settings.$font-family-oswald;
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ion-title{
+    font-family: settings.$font-family-oswald;
+}
+
+
+

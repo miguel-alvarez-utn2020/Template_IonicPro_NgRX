@@ -1,0 +1,4 @@
+@function size($pixels, $base-pixels: 10) {
+    $value : calc($pixels * 0.625 / 100);
+    @return calc($value * $base-pixels) + rem;
+}
