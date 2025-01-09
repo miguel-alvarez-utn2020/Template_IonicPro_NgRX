@@ -13,7 +13,7 @@ import { TranslationService } from 'src/app/shared/transtale/translation.service
   templateUrl: './login.page.html',
   styleUrls: ['./login.page.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, TranslateModule, IonButton, IonLabel, RouterLink]
+  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule, TranslateModule, IonButton, IonLabel]
 })
 export class LoginPage implements OnInit {
   private translationService = inject(TranslationService)

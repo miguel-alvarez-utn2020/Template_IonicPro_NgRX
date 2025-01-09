@@ -11,8 +11,8 @@
 <div style="display: flex; justify-content: space-around;">
 <!--   <button (click)="changeLang('en')">English</button>
   <button (click)="changeLang('es')">Spanish</button>  -->
-  <ion-button (click)="changeLang(Language.EN)"> {{ 'ENGLISH' | translate }} </ion-button>
-  <ion-button (click)="changeLang(Language.ES)"> {{ 'SPANISH' | translate }} </ion-button>
+  <ion-button (click)="changeLang(Language.EN)" color="primary" > {{ 'ENGLISH' | translate }} </ion-button>
+  <ion-button (click)="changeLang(Language.ES)" color="success" > {{ 'SPANISH' | translate }} </ion-button>
 
   <ion-button (click)="goToRegister()"> go to register </ion-button>
 </div>
